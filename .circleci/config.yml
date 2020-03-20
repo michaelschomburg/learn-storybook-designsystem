@@ -16,4 +16,4 @@ workflows:
     jobs:
       - build-and-test
       - run: yarn test
-      - run: yarn chromatic test --app-code=<app-code> --exit-zero-on-changes
+      - run: yarn chromatic test --app-code=c01zuvd004i  --exit-zero-on-changes
